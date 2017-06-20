@@ -15,13 +15,16 @@ sudo apt-get install tasksel）
 学校地址|address|char(20)| not null|
 学校编号|Sid|not null|primary key auto_increment主码|
 ## 创建数据表 information（create table information）
-包括数据：
-学生姓名（name char(20) not null）
-学生性别（sex int(4) not null default '0'）
-学生编号（id int(4) not null）主码， 外码是学校编号（Sid）
+数据|英文名|数据类型|备注
+-----|-----|-----|-----
+学生姓名|name| char(20)| not null|
+学生性别|sex| int(4)| not null default '0'|
+学生编号|id| int(4)| not null|
+主码， 外码是学校编号（Sid）
 ## 创建数据表 score（create table score）
-包括数据：
-课程编号（id char(20)）
-课程名（course char(20)e ）
-成绩（score  int） 
+数据|英文名|数据类型|备注
+-----|-----|-----|-----
+课程编号|id|char(20)|
+课程名|course| char(20)| 
+成绩|score|int| 
 外码：课程编号（id）和课程名（course）
