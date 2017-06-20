@@ -6,7 +6,7 @@ sudo apt-get install mysql-client mysql-server 安装mysql服务器和客户端�
 ### 建立数据库stu (create database stu)
 ### 进入数据库（ mysql -u root -p）
 ### 显示数据库（show databases）
-### 创建数据表 school（ create table 
+### 创建数据表 school（ create table )
 数据|英文名|数据类型|备注
 -----|-----|-----|-----
 学校名|Sname|char(20)| not null|
