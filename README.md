@@ -1,6 +1,6 @@
 ## MySQL.doc
 6月15 星期四
-### 安装数据库（sudo apt-get update 更新源
+### 安装数据库（sudo apt-get update 更新源)
 sudo apt-get install mysql-client mysql-server 安装mysql服务器和客户端）
 ### 安装mysql-workbench（sudo apt-get install mysql-workbench）
 ### 建立数据库stu (create database stu)
