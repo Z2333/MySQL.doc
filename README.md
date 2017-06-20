@@ -12,8 +12,8 @@ sudo apt-get install tasksel）
 数据|英文名|数据类型|备注
 -----|-----|-----|-----
 学校名|Sname|char(20)| not null|
-学校地址（address char(20) not null）
-学校编号（Sid not null primary key auto_increment）主码
+学校地址|address|char(20)| not null|
+学校编号|Sid|not null|primary key auto_increment主码|
 ## 创建数据表 information（create table information）
 包括数据：
 学生姓名（name char(20) not null）
