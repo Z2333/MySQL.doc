@@ -8,9 +8,10 @@ sudo apt-get install tasksel）
 ## 建立数据库stu (create database stu)
 ## 进入数据库（ mysql -u root -p）
 ## 显示数据库（show databases）
-## 创建数据表 school（ create table school）
-包括数据：
-学校名（Sname char(20) not null）
+## 创建数据表 school（ create table 
+数据|英文名|数据类型|备注
+-----|-----|-----|-----
+学校名|Sname|char(20)| not null|
 学校地址（address char(20) not null）
 学校编号（Sid not null primary key auto_increment）主码
 ## 创建数据表 information（create table information）
