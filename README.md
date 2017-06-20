@@ -19,6 +19,7 @@ sudo apt-get install mysql-client mysql-server 安装mysql服务器和客户端�
 学生性别|sex| int(4)| not null default '0'|
 学生编号|id| int(4)| not null|
 学生年龄|age|int(4)|not null|
+
 主码， 外码是学校编号（Sid）
 ### 创建数据表 score（create table score）
 数据|英文名|数据类型|备注
@@ -26,4 +27,5 @@ sudo apt-get install mysql-client mysql-server 安装mysql服务器和客户端�
 课程编号|id|char(20)|
 课程名|course| char(20)| 
 成绩|score|int| 
+
 外码：课程编号（id）和课程名（course）
